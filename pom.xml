@@ -199,7 +199,7 @@
 
     <name>Code Block</name>
     <description>Vaadin mapping for my code-block element.</description>
-    <url>https://github.com/oliveryasuna/code-block</url>
+    <url>https://github.com/oliveryasuna/vaadin-code-block</url>
     <inceptionYear>2021</inceptionYear>
     <licenses>
         <license>
@@ -231,16 +231,16 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/oliveryasuna/code-block/issues</url>
+        <url>https://github.com/oliveryasuna/vaadin-code-block/issues</url>
     </issueManagement>
     <ciManagement/>
 
     <mailingLists/>
 
     <scm>
-        <url>https://github.com/oliveryasuna/code-block</url>
-        <connection>scm:git:git://github.com/oliveryasuna/code-block.git</connection>
-        <developerConnection>scm:git:git://github.com/oliveryasuna/code-block.git</developerConnection>
+        <url>https://github.com/oliveryasuna/vaadin-code-block</url>
+        <connection>scm:git:git://github.com/oliveryasuna/vaadin-code-block.git</connection>
+        <developerConnection>scm:git:git://github.com/oliveryasuna/vaadin-code-block.git</developerConnection>
     </scm>
 
     <repositories>
