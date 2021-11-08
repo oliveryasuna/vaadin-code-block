@@ -1,6 +1,6 @@
 # Code Block.
 
-Vaadin mapping for my [<code-block>](https://github.com/oliveryasuna/code-block) element.
+Vaadin mapping for my [&lt;code-block&gt;](https://github.com/oliveryasuna/code-block) element.
 
 ## License
 
