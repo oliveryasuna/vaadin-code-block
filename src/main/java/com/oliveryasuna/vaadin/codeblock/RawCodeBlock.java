@@ -34,7 +34,7 @@ import com.vaadin.flow.component.dependency.NpmPackage;
  */
 @Tag("code-block")
 @JsModule("@oliveryasuna/code-block/code-block.js")
-@NpmPackage(value = "@oliveryasuna/code-block", version = "1.0.2")
+@NpmPackage(value = "@oliveryasuna/code-block", version = "1.0.4")
 public class RawCodeBlock extends Component {
 
   private static final Descriptor<String, String> CODE_DESCRIPTOR = Descriptors.stringProperty("code");
@@ -43,7 +43,7 @@ public class RawCodeBlock extends Component {
 
   private static final Descriptor<String, String> THEME_DESCRIPTOR = Descriptors.stringAttribute("theme");
 
-  private static final Descriptor<Boolean, Boolean> FANCY_DESCRIPTOR = Descriptors.booleanProperty("fancy", false);
+  private static final Descriptor<Boolean, Boolean> PLAIN_DESCRIPTOR = Descriptors.booleanProperty("plain", false);
 
   public RawCodeBlock() {
     super();
@@ -73,12 +73,12 @@ public class RawCodeBlock extends Component {
     set(CODE_DESCRIPTOR, code);
   }
 
-  public boolean isFancy() {
-    return get(FANCY_DESCRIPTOR);
+  public boolean isPlain() {
+    return get(PLAIN_DESCRIPTOR);
   }
 
-  public void setFancy(final boolean fancy) {
-    set(FANCY_DESCRIPTOR, fancy);
+  public void setPlain(final boolean plain) {
+    set(PLAIN_DESCRIPTOR, plain);
   }
 
 }

@@ -35,7 +35,7 @@
 
     <groupId>org.vaadin.addons.oliveryasuna</groupId>
     <artifactId>code-block</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.4</version>
     <packaging>jar</packaging>
 
     <modules/>
